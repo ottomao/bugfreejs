@@ -23,3 +23,6 @@ bugfreejs
 * 仅供娱乐。祝编码愉快 ^_^
 * 想适用其他格式文件？自己读*config.json*，不谢。
 
+## 致谢
+* 特别感谢[刘同学](https://github.com/liugb1989)临摹的佛像一尊。
+
