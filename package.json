@@ -1,6 +1,6 @@
 {
   "name": "bugfreejs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "just try it!",
   "main": "index.js",
   "bin": {
