@@ -1,10 +1,12 @@
+#!/usr/bin/env node
+
 var config = require("./config.json"),
 	fs       = require("fs"),
 	path     = require("path"),
 	buffer   = require("buffer").Buffer;
 
 var commentContent = fs.readFileSync(path.join(__dirname,"comment_default.txt"),{encoding:"utf8"});
-console.log("commet template is at :" + __dirname + " ,just rewrite it as you wish");
+console.log("commet template is at :" + __dirname + "\r\njust rewrite it as you wish\r\n");
 
 var targetList = process.argv;
 if(targetList[0] == "node"){
