@@ -1,0 +1,25 @@
+{
+  "name": "bugfreejs",
+  "version": "1.0.0",
+  "description": "just try it!",
+  "main": "index.js",
+  "bin": {
+    "bugfree": "index.js",
+    "bugfreejs": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Otto Mao <ottomao@gmail.com> (http://ottomao.com/)",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ottomao/bugfreejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ottomao/bugfreejs/issues"
+  },
+  "homepage": "https://github.com/ottomao/bugfreejs"
+}
