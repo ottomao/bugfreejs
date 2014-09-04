@@ -3,7 +3,7 @@ bugfreejs
 
 佛祖保佑，永无bug
 
-自动在JS头部加上神注释，同时支持utf8和GBK编码的js文件。
+自动在JS头部加上神注释，默认支持utf8和GBK编码的js文件。
 
 ![](http://gtms04.alicdn.com/tps/i4/TB1sXuyGXXXXXaPXXXXk3aW_VXX-800-668.jpg_600x600q90.jpg)
 
