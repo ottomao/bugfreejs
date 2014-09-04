@@ -3,15 +3,14 @@ bugfreejs
 
 佛祖保佑，永无bug
 
-自动在JS头部加上神注释。
+自动在JS头部加上神注释，同时支持utf8和GBK编码的js文件。
 
-
-![](http://gtms01.alicdn.com/tps/i1/TB1JjueGXXXXXaDaXXXPsXz1pXX-1000-533.jpg_600x600q90.jpg)
+![](http://gtms04.alicdn.com/tps/i4/TB1sXuyGXXXXXaPXXXXk3aW_VXX-800-668.jpg_600x600q90.jpg)
 
 
 ## 安装
 * 需要nodeJS环境和sudo权限。
-* ``npm install -g bugfreejs``
+* ``sudo npm install -g bugfreejs``
 
 ## 使用
 * 单文件 ``bugfreejs myfile.js``
@@ -24,5 +23,5 @@ bugfreejs
 * 想适用其他格式文件？自己读*config.json*，不谢。
 
 ## 致谢
-* 特别感谢[刘同学](https://github.com/liugb1989)临摹的佛像一尊。
+* 特别感谢[刘同学](https://github.com/liugb1989)临摹的跨字符集佛像一尊。
 
