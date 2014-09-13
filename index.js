@@ -30,7 +30,7 @@ for(var i = 0 ; i < targetList.length ; i++){
 	}
 	if(stat.isDirectory()){
 		var list = fs.readdirSync(target);
-		list.map(function(item){
+		list.forEach(function(item){
 			mathcRuleForFile(path.join(target,item));
 		});
 	}
