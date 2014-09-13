@@ -60,7 +60,7 @@ function mathcRuleForFile(filePath){
 				//add comment prefix
 				var commentData = isUtf8(data) ? commentContent_forUTF8 : commentContent;
 				var lineArr     = commentData.split("\n");
-				lineArr.map(function(line,index){
+				lineArr.forEach(function(line,index){
 					lineArr[index] = configItem.prefix + line;
 				});
 				var currentComment  = new Buffer(lineArr.join("\n") + "\n"); //TODO :cache this result
