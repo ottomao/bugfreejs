@@ -1,13 +1,13 @@
 {
   "name": "bugfreejs",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "add some special comment to your js file. You will love it.",
   "main": "index.js",
   "bin": {
     "bugfreejs": "index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js testFile.js testFile_gbk.js"
   },
   "author": "Otto Mao <ottomao@gmail.com> (http://ottomao.com/)",
   "license": "ISC",
