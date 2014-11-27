@@ -57,6 +57,12 @@ function mathcRuleForFile(filePath){
 			fs.readFile(filePath,function(err,data){
 				if(err) throw err;
 
+				//comment already exists
+				if(/o8888888o/.test(data.toString())){
+					process.stdout.write("--> " + filePath + " - comment already exists" + "\n");
+					return;
+				}
+
 				//add comment prefix
 				var commentData = isUtf8(data) ? commentContent_forUTF8 : commentContent;
 				var lineArr     = commentData.split("\n");

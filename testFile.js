@@ -23,6 +23,7 @@
 // 
 //                          佛祖保佑         永无bug
 //                          
+                       
 function dealFile(filePath) {
 
 	if(!fs.existsSync(filePath)){

@@ -1,6 +1,6 @@
 {
   "name": "bugfreejs",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "add some special comment to your js file. You will love it.",
   "main": "index.js",
   "bin": {
