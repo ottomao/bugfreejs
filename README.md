@@ -20,6 +20,7 @@ bugfreejs
 
 ## 其他
 * 仅供娱乐。祝编码愉快 ^_^
+* CoffeeScript 党？往这里看：[bugfreecoffee](https://github.com/layerssss/bugfreecoffee)
 * 想适用其他格式文件？自己读*config.json*，不谢。
 * **支付宝@上海@杭州 招聘前端攻城师，要求你懂的，简历xiaofeng.mxf@alibaba-inc.com**
 
