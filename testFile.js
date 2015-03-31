@@ -19,11 +19,10 @@
 //                                  `=---=`
 //  
 //  
-//               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//       ~~~~~~~Powered by https://github.com/ottomao/bugfreejs~~~~~~~
 // 
 //                          佛祖保佑         永无bug
 //                          
-                       
 function dealFile(filePath) {
 
 	if(!fs.existsSync(filePath)){

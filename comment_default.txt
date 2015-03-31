@@ -19,5 +19,5 @@
                                  `=---=`
  
  
-              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      ~~~~~~~Powered by https://github.com/ottomao/bugfreejs~~~~~~~
                
