@@ -17,8 +17,8 @@ if(targetList[0] == "node"){
 targetList.shift();
 
 if(targetList.length <= 0){
-	console.log("useage : bugfree fileA [fileB [fileC]..]");
-	console.log("useage : bugfree dirName");
+	console.log("usage : bugfree fileA [fileB [fileC]..]");
+	console.log("usage : bugfree dirName");
 	process.exit(0);
 }
 
@@ -48,7 +48,7 @@ function mathcRuleForFile(filePath){
 			break;
 		}
 	}
-	
+
 	function dealFile(filePath) {
 
 		if(!fs.existsSync(filePath)){
