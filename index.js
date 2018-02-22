@@ -6,7 +6,7 @@ var config = require("./config.json"),
 	isUtf8   = require("is-utf8"),
 	buffer   = require("buffer").Buffer;
 	
-const commentFileArr = ['default', 'alpaca'];
+const commentFileArr = ['default', 'alpaca', 'god'];
 var commentContentConfig = {};
 
 for(let i = 0; i < commentFileArr.length; i++) {

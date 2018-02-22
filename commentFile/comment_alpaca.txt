@@ -24,4 +24,3 @@
 
                    ~~~~~~~Powered by https://github.com/ottomao/bugfreejs~~~~~~~
 
-                          神兽保佑                             永无bug
