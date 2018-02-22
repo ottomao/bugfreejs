@@ -20,6 +20,7 @@ bugfreejs
 ## 关于信仰
 * 默认信仰为佛主，也可以写成 ``bugfreejs myfile.js -default``
 * 神兽（羊驼）：``bugfreejs myfile.js -alpaca``
+* 耶稣：``bugfreejs myfile.js -god``
 
 ## 其他
 * 仅供娱乐。祝编码愉快 ^_^
