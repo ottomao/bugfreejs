@@ -17,6 +17,9 @@ bugfreejs
 * 多文件 ``bugfreejs fileA.js fileB.js fileC.js``
 * 目录下所有js文件 ``bugfreejs dir/``
 
+## 关于信仰
+* 默认信仰为佛主，也可以写成 ``bugfreejs myfile.js -default``
+* 神兽（羊驼）：``bugfreejs myfile.js -alpaca``
 
 ## 其他
 * 仅供娱乐。祝编码愉快 ^_^
