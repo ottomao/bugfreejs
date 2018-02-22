@@ -29,4 +29,5 @@ bugfreejs
 
 ## 致谢
 * 特别感谢[刘同学](https://github.com/liugb1989)临摹的跨字符集佛像一尊。
+* 如有新的信(hua)仰(xiang)，欢迎提供。
 
