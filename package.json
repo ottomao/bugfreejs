@@ -1,11 +1,24 @@
 {
   "name": "bugfreejs",
-  "version": "1.2.4",
-  "description": "add some special comment to your js file. You will love it.",
+  "version": "2.0.0",
+  "description": "add some special comment to your js file. You will love it. Now available as webpack/rspack plugin!",
   "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./webpack-plugin": "./webpack-plugin.js",
+    "./rspack-plugin": "./rspack-plugin.js"
+  },
   "bin": {
     "bugfreejs": "index.js"
   },
+  "files": [
+    "index.js",
+    "lib/",
+    "webpack-plugin.js",
+    "rspack-plugin.js",
+    "commentFile/",
+    "config.json"
+  ],
   "scripts": {
     "test": "node index.js testFile.js testFile_gbk.js"
   },
@@ -15,6 +28,18 @@
     "is-utf8": "^0.2.0"
   },
   "devDependencies": {},
+  "peerDependencies": {
+    "webpack": "^5.0.0 || ^4.0.0",
+    "@rspack/core": ">=1.0.0"
+  },
+  "peerDependenciesMeta": {
+    "webpack": {
+      "optional": true
+    },
+    "@rspack/core": {
+      "optional": true
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ottomao/bugfreejs.git"

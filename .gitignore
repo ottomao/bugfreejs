@@ -3,3 +3,5 @@
 .DS_Store
 .git
 node_modules
+dist
+package-lock.json
