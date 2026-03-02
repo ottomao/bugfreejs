@@ -1,0 +1,13 @@
+{
+  "name": "bugfreejs-rspack-example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "rspack build"
+  },
+  "devDependencies": {
+    "bugfreejs": "file:../../",
+    "@rspack/cli": "^1.0.0",
+    "@rspack/core": "^1.0.0"
+  }
+}
